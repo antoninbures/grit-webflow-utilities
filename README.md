@@ -12,7 +12,7 @@ Use the minified file in Webflow:
 
 Page-specific Customer Insights snippets are stored in `crm-scripts/`.
 
-- `crm-scripts/invoice-flow-cz-contact-form.html` - fixed Form Capture script for `https://www.grit.eu/invoice-flow`.
+- `crm-scripts/invoice-flow-cz-contact-form.html` - Form Capture script for `https://www.grit.eu/invoice-flow` and its SK/EN versions. Webflow submits first, then CRM, then redirect.
 - `crm-scripts/kontakt-cz-contact-form.html` - Form Capture script for the Kontakt form (`https://www.grit.eu/kontakt` and the homepage, CZ/SK/EN). Webflow submits first, then CRM, then redirect.
 - `crm-scripts/ebook-form-cz.html` - fixed Form Capture script for e-book detail pages.
 - `crm-scripts/lokia-wms-cz-contact-form.html` - fixed Form Capture script for `https://www.grit.eu/skladovy-system-lokia-wms`.

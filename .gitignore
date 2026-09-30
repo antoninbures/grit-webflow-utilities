@@ -9,6 +9,14 @@
 !crm-scripts/ebook-form-cz.html
 !crm-scripts/lokia-wms-cz-contact-form.html
 !crm-scripts/orion-edi-cz-contact-form.html
-!crm-scripts/e-fakturacia-localized-contact-form.html
+!crm-scripts/e-fakturacia-sk-contact-form.html
+!crm-scripts/e-fakturace-cz-en-contact-form.html
+!crm-scripts/zrychleni-obchodniho-toku-localized-contact-form.html
+!crm-scripts/integrace-dodavatelu-localized-contact-form.html
+!crm-scripts/automatizace-dokumentu-localized-contact-form.html
+!crm-scripts/sscc-kody-localized-contact-form.html
+!crm-scripts/odvetvi-retail-contact-form.html
+!crm-scripts/odvetvi-e-commerce-contact-form.html
+!crm-scripts/odvetvi-farmacie-contact-form.html
 !crm-scripts/webflow-localized-success-redirect.html
 !crm-scripts/event-localized-success-redirect.html

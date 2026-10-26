@@ -14,7 +14,8 @@ Page-specific Customer Insights snippets are stored in `crm-scripts/`.
 
 - `crm-scripts/invoice-flow-cz-contact-form.html` - Form Capture script for `https://www.grit.eu/invoice-flow` and its SK/EN versions. Webflow submits first, then CRM, then redirect only after the CRM confirmed.
 - `crm-scripts/kontakt-cz-contact-form.html` - Form Capture script for the Kontakt form (`https://www.grit.eu/kontakt` and the homepage, CZ/SK/EN). Webflow submits first, then CRM, then redirect only after the CRM confirmed.
-- `crm-scripts/ebook-form-cz.html` - fixed Form Capture script for e-book detail pages.
+- `crm-scripts/ebook-form-cz.html` - Form Capture script for e-book detail pages (CZ/SK/EN). Webflow submits first, then CRM; no redirect, Webflow's success message stays.
+- `crm-scripts/e-invoicing-velke-firmy-sk-contact-form.html` - SK-only form on `/sk/povinna-e-fakturacia-pre-velke-slovenske-firmy` (`#wf-form-Reseni_Form`). Webflow first, then CRM, then redirect only after the CRM confirmed.
 - `crm-scripts/lokia-wms-cz-contact-form.html` - Form Capture script for `https://www.grit.eu/skladovy-system-lokia-wms` and its SK/EN versions. Webflow submits first, then CRM, then redirect only after the CRM confirmed. Keeps the MSCI `FormSubmit` tracking event.
 - `crm-scripts/orion-edi-cz-contact-form.html` - Form Capture script for `https://www.grit.eu/elektronicka-vymena-dat-orion-edi` and its SK/EN versions. Webflow submits first, then CRM, then redirect only after the CRM confirmed.
 - `crm-scripts/e-fakturacia-sk-contact-form.html` - SK e-invoicing form (`/sk/riesenie/e-fakturacia`), includes the package select `variant` -> `grit_doplnenivyberubalicku`. Webflow first, then CRM, then redirect.
